@@ -1,0 +1,2 @@
+# EventBot
+MeshCore Event Bot
