@@ -1,29 +1,28 @@
 {
-  "name": "eventbot",
-  "version": "0.0.1",
-  "description": "A MeshCore bot to notify and manage calendar events",
-  "homepage": "https://github.com/bryantkelley/EventBot#readme",
-  "bugs": {
-    "url": "https://github.com/bryantkelley/EventBot/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bryantkelley/EventBot.git"
-  },
-  "license": "MIT",
-  "author": "Bryant Kelley",
-  "type": "module",
-  "main": "index.ts",
-  "scripts": {
-    "start": "tsx --env.file=.env index.ts"
-  },
-  "dependencies": {
-    "@liamcottle/meshcore.js": "^1.10.0",
-    "pg": "^8.16.3",
-    "rrule": "^2.8.1"
-  },
-  "devDependencies": {
-    "@types/node": "^25.0.3",
-    "tsx": "^4.21.0"
-  }
+	"name": "eventbot",
+	"version": "0.0.1",
+	"description": "A MeshCore bot to notify and manage calendar events",
+	"homepage": "https://github.com/bryantkelley/EventBot#readme",
+	"bugs": {
+		"url": "https://github.com/bryantkelley/EventBot/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bryantkelley/EventBot.git"
+	},
+	"license": "MIT",
+	"author": "Bryant Kelley",
+	"type": "module",
+	"main": "index.ts",
+	"scripts": {
+		"start": "tsx --env.file=.env index.ts"
+	},
+	"dependencies": {
+		"@liamcottle/meshcore.js": "^1.10.0",
+		"rrule": "^2.8.1"
+	},
+	"devDependencies": {
+		"@types/node": "^25.0.3",
+		"tsx": "^4.21.0"
+	}
 }
